@@ -76,7 +76,7 @@ $white:#fff;
             background: $white;
             border: 2px solid orange;
             padding: 8px;
-            margin-left: 800px;
+            margin-left: 700px;
         }
     }
 
@@ -111,5 +111,47 @@ $white:#fff;
             }
         }
     }
-    
+}
+
+@media only screen and (max-width:480px){
+    .container{
+        .head{
+            padding: 10px;
+        }
+        .collection{
+        padding-left: 10px;
+        display: block;
+        .options{
+        margin-left: 10px;
+        }
+        }
+
+        .prd{
+            >div{
+                gap: 10px;
+                margin-left: 20px;
+            }
+            >div{
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+            
+            button{
+                margin-left: 130px;
+            }
+        }
+        .story{
+            display: block;
+            gap: 10px;
+            .text2{
+                margin-left: 10px;
+                #gabooo{
+                    margin-left: 120px;
+                }
+            }
+        }
+}
+
 }
