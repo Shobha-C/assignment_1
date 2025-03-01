@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+$white:#fff;
+
+.container{
+    .head{
+        background-color: #46b8e4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 50px;
+        padding-left: 300px;
+
+        input{
+            background-color: #46b8e4;
+            width: 320px;
+            border: 1.5px solid black;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        button{
+            background-color: orange;
+            color: #fff;
+            border: none;
+            width: 180px;
+            height: 25px;
+        }
+    }
+}
