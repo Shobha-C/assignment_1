@@ -35,4 +35,24 @@ $white:#fff;
             height: 25px;
         }
     }
+    .collection{
+        padding-left: 350px;
+        padding-top: 30px;
+        display: flex;
+        .text{
+        h1{
+            color: orange;
+        }
+        }
+        .options{
+            margin-left: 240px;
+            margin-top: 40px;
+            button{
+                background-color: $white;
+                border: 2px solid orange;
+                padding: 6px;
+                width: 70px;
+            }
+        }
+    }
 }
