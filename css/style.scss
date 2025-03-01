@@ -55,4 +55,51 @@ $white:#fff;
             }
         }
     }
+
+    .cloths{
+        >div{
+            ul{
+                li{
+                    >div{
+                        img{
+                            width: 150px;
+                            height: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .story{
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+
+        .text2{
+            text-align: center;
+            justify-content: center;
+
+            #gabooo{
+                color: orange;
+                font-size: 25px;
+                border: 2px solid orange;
+                width: 120px;
+                height: 30px;
+                margin-left: 285px;
+                padding: 8px;
+            }
+
+
+            button{
+                background-color: $white;
+                border: 2px solid orange;
+                width: 140px;
+                height: 40px;
+            }
+        }
+    }
+    
 }
