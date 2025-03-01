@@ -48,9 +48,26 @@ ul {
   padding: 6px;
   width: 70px;
 }
-.container .cloths > div ul li > div img {
+.container .prd > div {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 80px;
+  margin-left: 400px;
+}
+.container .prd > div > div {
+  color: purple;
+}
+.container .prd > div > div img {
   width: 150px;
   height: 150px;
+}
+.container .prd button {
+  background: #fff;
+  border: 2px solid orange;
+  padding: 8px;
+  margin-left: 800px;
 }
 .container .story {
   margin-top: 10px;

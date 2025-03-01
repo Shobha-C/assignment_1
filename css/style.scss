@@ -56,20 +56,30 @@ $white:#fff;
         }
     }
 
-    .cloths{
+    .prd{
         >div{
-            ul{
-                li{
-                    >div{
-                        img{
-                            width: 150px;
-                            height: 150px;
-                        }
-                    }
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin-top: 80px;
+            margin-left: 400px;
+            >div{
+                color: purple;
+                img{
+                    width: 150px;
+                    height: 150px;
                 }
             }
         }
+        button{
+            background: $white;
+            border: 2px solid orange;
+            padding: 8px;
+            margin-left: 800px;
+        }
     }
+
 
     .story{
         margin-top: 10px;
