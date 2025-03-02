@@ -48,26 +48,40 @@ ul {
   padding: 6px;
   width: 70px;
 }
-.container .prd > div {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin-top: 80px;
+.container .prd > ul {
   margin-left: 400px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.container .prd > div > div {
-  color: purple;
+.container .prd > ul li {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
-.container .prd > div > div img {
+.container .prd > ul li img {
+  position: absolute;
   width: 150px;
   height: 150px;
+}
+.container .prd > ul li p:nth-of-type(1) {
+  position: absolute;
+  bottom: 20px;
+  color: purple;
+}
+.container .prd > ul li p:nth-of-type(2) {
+  position: absolute;
+  bottom: 5px;
+  color: purple;
 }
 .container .prd button {
   background: #fff;
   border: 2px solid orange;
   padding: 8px;
-  margin-left: 700px;
+  margin-left: 750px;
 }
 .container .story {
   margin-top: 10px;
@@ -107,13 +121,17 @@ ul {
   .container .collection .options {
     margin-left: 10px;
   }
-  .container .prd > div {
-    gap: 10px;
-    margin-left: 20px;
+  .container .prd > ul {
+    gap: 5px;
+    margin-left: 10px;
   }
-  .container .prd > div img {
-    width: 150px;
-    height: 150px;
+  .container .prd > ul li {
+    height: 160px;
+    width: 160px;
+  }
+  .container .prd > ul li img {
+    width: 100px;
+    height: 100px;
   }
   .container .prd button {
     margin-left: 130px;
