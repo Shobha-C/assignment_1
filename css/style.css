@@ -50,7 +50,7 @@ ul {
 }
 .container .prd > ul {
   margin-left: 400px;
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,6 +90,10 @@ ul {
   align-items: center;
   gap: 25px;
 }
+.container .story .img img {
+  width: 600px;
+  height: 300px;
+}
 .container .story .text2 {
   text-align: center;
   justify-content: center;
@@ -111,6 +115,9 @@ ul {
 }
 
 @media only screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
   .container .head {
     padding: 10px;
   }
@@ -128,6 +135,7 @@ ul {
   .container .prd > ul li {
     height: 160px;
     width: 160px;
+    justify-content: center;
   }
   .container .prd > ul li img {
     width: 100px;
@@ -139,6 +147,10 @@ ul {
   .container .story {
     display: block;
     gap: 10px;
+  }
+  .container .story .img img {
+    width: 400px;
+    height: 200px;
   }
   .container .story .text2 {
     margin-left: 10px;
