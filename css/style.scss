@@ -60,7 +60,7 @@ $orange:orange;
     .prd{
         >ul{
             margin-left: 400px;
-            margin-top: 40px;
+            margin-top: 60px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -103,6 +103,12 @@ $orange:orange;
         align-items: center;
         gap: 25px;
 
+        .img{
+            img{
+                width: 600px;
+                height: 300px;
+            }
+        }
         .text2{
             text-align: center;
             justify-content: center;
@@ -130,6 +136,7 @@ $orange:orange;
 
 @media only screen and (max-width:480px){
     .container{
+        padding: 10px;
         .head{
             padding: 10px;
         }
@@ -149,6 +156,7 @@ $orange:orange;
             li{
                 height: 160px;
                 width: 160px;
+                justify-content: center;
                 img{
                     width: 100px;
                     height: 100px;
@@ -164,6 +172,13 @@ $orange:orange;
         .story{
             display: block;
             gap: 10px;
+
+            .img{
+                img{
+                    width: 400px;
+                    height: 200px;
+                }
+            }
             .text2{
                 margin-left: 10px;
                 #gabooo{
