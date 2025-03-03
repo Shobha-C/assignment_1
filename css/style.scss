@@ -60,7 +60,7 @@ $orange:orange;
     .prd{
         >ul{
             margin-left: 400px;
-            margin-top: 60px;
+            margin-top: 80px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -143,8 +143,11 @@ $orange:orange;
         .collection{
         padding-left: 10px;
         display: block;
+        .text{
+            text-align: center;
+        }
         .options{
-        margin-left: 10px;
+        margin-left: 50px;
         }
         }
 
@@ -165,7 +168,7 @@ $orange:orange;
         }
             
             button{
-                margin-left: 130px;
+                margin-left: 140px;
             }
         
         }
